@@ -1,0 +1,87 @@
+@media only screen and (max-width: 767px) {
+    /* Global */
+    .border-md-right{
+        border-right: 0;
+    } 
+    
+    .border-md-bottom{
+        border-bottom: 2px solid var(--orange-color);
+    }
+    
+    /* Banner */
+    header .banner .position-center h1 {
+        font-size: 2rem;
+    }
+
+    /* Navbar */
+
+    #nav>div {
+        display: block;
+        height: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: none;
+    }
+
+    #nav .nav-item {
+        padding: 10px 20px;
+        border: none;
+    }
+
+    #nav .nav-item a {
+        padding: 0;
+        border: none;
+    }
+
+    /* Information */
+    #info .target h2, #info .information h2{
+        margin-bottom: 30px;
+    }
+
+    #info .target,
+    #info .information {
+        width: 100%;
+        padding: 50px 20px;
+    }
+
+    #info .info-table{
+        vertical-align: top;
+    }
+    
+    #info .info-table tr th{
+        text-wrap: nowrap;
+        padding-right: 20px;
+    }
+    #info .info-table tr td{
+        word-wrap: break-word;
+    }
+
+    /* Experience */
+    #exp .exp-item {
+        height: auto;
+    }
+    
+
+    /* Certificates */
+    .cer-item>div{
+        width: 100% !important;
+    }
+
+    /* footer */
+    footer .social span {
+        display: none;
+    }
+
+    /* Digital CV */
+
+    #digital-cv {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-areas:
+        'goals'
+        'scopes'
+        'team'
+        'primary'
+        'timeline';
+    }
+    
+}

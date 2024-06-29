@@ -1,0 +1,58 @@
+@media only screen and (max-width: 991px) {
+
+    /* Global */
+    .border-md-bottom {
+        border-bottom: 0;
+    }
+
+    /* Banner */
+    header .banner .position-center h1 {
+        font-size: 2rem;
+    }
+
+    /* Information */
+    #info .target h2,
+    #info .information h2 {
+        margin-bottom: 30px;
+    }
+
+    #info .target,
+    #info .information {
+        width: 100%;
+        padding: 50px 20px;
+    }
+
+    #info .info-table {
+        vertical-align: top;
+    }
+
+    #info .info-table tr th {
+        text-wrap: nowrap;
+        padding-right: 20px;
+    }
+
+    #info .info-table tr td {
+        word-wrap: break-word;
+    }
+
+    /* Experience */
+    #exp .exp-item {
+        height: auto;
+    }
+
+    /* Certificates */
+    .cer-item>div {
+        width: 100% !important;
+    }
+
+}
+/* Khi skills không có show More thì chỉnh bố cục như hình */
+/* @media screen and (min-width: 768px) and (max-width: 991px) {
+    .item-4{
+        margin-top: -45px;
+    }
+
+    .item-6{
+        margin-top: -75px;
+    }
+} */
